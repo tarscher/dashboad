@@ -75,6 +75,15 @@ const mdTheme = createTheme({
   palette: {
     mode: "dark",
   },
+  components: {
+    MuiTypography: {
+      defaultProps: {
+        variantMapping: {
+          question: "h2",
+        },
+      },
+    },
+  },
 });
 
 function DashboardContent(props) {

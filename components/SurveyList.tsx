@@ -27,7 +27,6 @@ export default function SurveysList() {
 
   return (
     <SuspenseWithPerf fallback={<LoadingSpinner />} traceId="survey_app_root">
-      <Title>Devices</Title>
       <Table size="small">
         <TableHead>
           <TableRow>

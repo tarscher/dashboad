@@ -1,15 +1,9 @@
 import type { AppProps } from "next/app";
-import { doc, getFirestore } from "firebase/firestore";
-import {
-  FirebaseAppProvider,
-  FirestoreProvider,
-  useFirestoreDocData,
-  useFirestore,
-  useFirebaseApp,
-} from "reactfire";
+import { FirebaseAppProvider } from "reactfire";
 
 import Dashboard from "../components/Dashboard";
-import Device from "../components/Device";
+
+import "./reactflow.css";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBb93dTreseJ1tmeT2TB1bSHcImY0H7YXA",

@@ -26,8 +26,7 @@
     "react-dom": "^18.2.0",
     "react-time-ago": "^7.2.1",
     "reactfire": "^4.2.2",
-    "reactflow": "^11.3.3",
-    "recharts": "^2.1.16"
+    "reactflow": "^11.3.3"
   },
   "devDependencies": {
     "@types/node": "^17.0.43",

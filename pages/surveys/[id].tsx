@@ -6,6 +6,7 @@ import { Title } from "@mui/icons-material";
 import React from "react";
 
 import ReactFlowDesigner from "../../components/ReactFlow/Designer";
+import { color } from "@mui/system";
 
 export async function getServerSideProps(context) {
   return {
@@ -30,8 +31,14 @@ export default function Device() {
             <b>Survey {}</b>
           </Item>
         </Grid>
-        <Grid sx={{ width: "100vw", height: "100vh" }}>
-          <Item>
+        <Grid xs={12}>
+          <Item
+            sx={{
+              width: "100%",
+              height: "75vh",
+              "background-color": "#333",
+            }}
+          >
             <ReactFlowDesigner />
           </Item>
         </Grid>
